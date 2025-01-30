@@ -46,7 +46,7 @@ function takeCommand(message) {
     message.includes("who are you") ||
     message.includes("what is your name") || message.includes("hu r u")
   ) {
-    speak("I am your virtual assistant zoya, created by Prashant Sir.");
+    speak("I am your virtual assistant zoya, created by Prashant Awadhiya.");
   }
 
   // Social Media & Websites (Works with or without "Zoya")
