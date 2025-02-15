@@ -133,6 +133,15 @@ function takeCommand(message) {
     window.open("whatsapp://");
   }
 
+  //abusive language
+  else if (
+    message.includes("Bhosdike") ||
+    message.includes("madarchod") || message.includes("betichod")
+    || message.includes("laude") || message.includes("gandu") || message.includes("gendu") || message.includes("gandmare")
+  ) {
+    speak("Please don't use abusive language because jo bolta hai vahi hota hai ");
+  }
+
   // Time & Date
   else if (message.includes("time") || message.includes("what is the time")) {
     let time = new Date().toLocaleString(undefined, {
